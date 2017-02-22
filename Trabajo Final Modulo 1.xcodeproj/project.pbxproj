@@ -12,6 +12,10 @@
 		B5C185B21E5CE7FD0088F287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C185B01E5CE7FD0088F287 /* Main.storyboard */; };
 		B5C185B41E5CE7FD0088F287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C185B31E5CE7FD0088F287 /* Assets.xcassets */; };
 		B5C185B71E5CE7FD0088F287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C185B51E5CE7FD0088F287 /* LaunchScreen.storyboard */; };
+		FB0350431E5D041D00D45D22 /* DescripCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0350421E5D041D00D45D22 /* DescripCursoViewController.swift */; };
+		FB0350451E5D05DB00D45D22 /* ModulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0350441E5D05DB00D45D22 /* ModulesViewController.swift */; };
+		FB0350471E5D06B400D45D22 /* DescripModulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0350461E5D06B400D45D22 /* DescripModulesViewController.swift */; };
+		FB0350491E5D0CEA00D45D22 /* DatosCompletosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0350481E5D0CEA00D45D22 /* DatosCompletosTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B5C185B31E5CE7FD0088F287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C185B61E5CE7FD0088F287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C185B81E5CE7FD0088F287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0350421E5D041D00D45D22 /* DescripCursoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescripCursoViewController.swift; sourceTree = "<group>"; };
+		FB0350441E5D05DB00D45D22 /* ModulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesViewController.swift; sourceTree = "<group>"; };
+		FB0350461E5D06B400D45D22 /* DescripModulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescripModulesViewController.swift; sourceTree = "<group>"; };
+		FB0350481E5D0CEA00D45D22 /* DatosCompletosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosCompletosTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				B5C185AC1E5CE7FD0088F287 /* AppDelegate.swift */,
 				B5C185AE1E5CE7FD0088F287 /* ViewController.swift */,
 				B5C185B01E5CE7FD0088F287 /* Main.storyboard */,
+				FB0350481E5D0CEA00D45D22 /* DatosCompletosTableViewController.swift */,
+				FB0350461E5D06B400D45D22 /* DescripModulesViewController.swift */,
+				FB0350441E5D05DB00D45D22 /* ModulesViewController.swift */,
+				FB0350421E5D041D00D45D22 /* DescripCursoViewController.swift */,
 				B5C185B31E5CE7FD0088F287 /* Assets.xcassets */,
 				B5C185B51E5CE7FD0088F287 /* LaunchScreen.storyboard */,
 				B5C185B81E5CE7FD0088F287 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0350491E5D0CEA00D45D22 /* DatosCompletosTableViewController.swift in Sources */,
 				B5C185AF1E5CE7FD0088F287 /* ViewController.swift in Sources */,
+				FB0350431E5D041D00D45D22 /* DescripCursoViewController.swift in Sources */,
+				FB0350451E5D05DB00D45D22 /* ModulesViewController.swift in Sources */,
 				B5C185AD1E5CE7FD0088F287 /* AppDelegate.swift in Sources */,
+				FB0350471E5D06B400D45D22 /* DescripModulesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Trabajo Final Modulo 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joserq.group.Trabajo-Final-Modulo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Trabajo Final Modulo 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joserq.group.Trabajo-Final-Modulo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +317,7 @@
 				B5C185BD1E5CE7FD0088F287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
